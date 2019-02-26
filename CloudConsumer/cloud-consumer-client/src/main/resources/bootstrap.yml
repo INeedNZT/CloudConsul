@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: consumer-one
+server:
+  port: 8101
+
+
+logging.level:
+  per.shaq.distributed.consumer.refactor.RefactorHelloOneService: DEBUG

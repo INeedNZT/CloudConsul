@@ -1,0 +1,10 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: producer-one
+  cloud:
+    consul:
+      discovery:
+#        instanceId: ${spring.application.name}
+        instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
