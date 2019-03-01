@@ -9,10 +9,11 @@
         <artifactId>cloud-consul</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>per.shaq.distributed</groupId>
+
     <artifactId>cloud-consumer</artifactId>
-    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
     <modules>
         <module>cloud-consumer-client</module>
         <module>cloud-consumer-pojo</module>
